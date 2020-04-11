@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Latitude</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="home.html">Project Latitude</a>
+        </div>
+    </ul>
+    <ul class="nav nav-tabs justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="data.html">Data</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="comparison.html">Comparisons</a>
+    </li>
+
+    <li class="nav-item dropdown" style="right: 0; left: auto;">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+      <div class="dropdown-menu dropdown-menu-right" >
+        <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+        <a class="dropdown-item" href="humid.html">Humidity</a>
+        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+      </div>
+    </li>
+  </ul>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="map" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG" alt="The World">
+      </div>
+    </div>
+    <div class="row" style="padding-top: 10px;">
+      <div class="col-md-5 section">
+        <h2>About Us</h2>
+        <p>Project Latitude's sole purpose of existence is to the prove that latitude is a worthy variable within data anaylsis. The first step is to acknowledge the usefulness of latitude in understand weather predictions. While science had made strives to prove casuality between latitute and climatic patterns, Project Latitutes aims to prove correlation.</p>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-5 section">
+        <h2>Summary</h2>
+        <p>As mentioned above, current endeavors of Project Latitude focus on correlation between latitude and weather condition. Using only one day's datapoint accross a random selection of cities, the current variables comparaed are as follow:</p>
+      </div>
+    </div>
+      <div class="row" style>
+        <div class="col-md-4 section">
+          <h2>Plots So Far</h2>
+        </div>
+        <div class="col-mid-7 section">
+          <button type="button" class="btn btn-outline-primary">
+            <a  href="cloud.html">Cloudiness</a>
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            <a  href="humid.html">Humidity</a>
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            <a  href="temp.html">Max Temperature</a>
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            <a  href="wind.html">Wind Speed</a>
+          </button>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <span>Copyright 2020 Project Latitude</span>
+      </div>
+    </footer>
+  </div>
+</body>
