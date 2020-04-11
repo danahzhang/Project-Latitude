@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Wind Factor</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="home.html">Project Latitude</a>
+        </div>
+    </ul>
+    <ul class="nav nav-tabs justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="data.html">Data</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="comparison.html">Comparisons</a>
+    </li>
+
+    <li class="nav-item dropdown active" style="right: 0; left: auto;">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+      <div class="dropdown-menu dropdown-menu-right" >
+        <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+        <a class="dropdown-item" href="humid.html">Humidity</a>
+        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+        <a class="dropdown-item active" href="wind.html">Wind Speed</a>
+      </div>
+    </li>
+  </ul>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>The Wind Factor</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="map" src="pictures/Latitude vs. Wind Speed Plot.png" alt="Latitude vs. Wind Speed Plot">      </div>
+    </div>
+    <div class="row" style="padding-top: 10px;">
+      <div class="col-md-5 section">
+        <h2>About The Graph</h2>
+        <p>This graph shows the relationship between cities' latitude and the wind speed on a particular day. Latitude is plotted on the x-axis, while cloudiness is plotted on the y-axis. Wind speed is measured by metric kiloton.</p>
+        </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-5 section">
+        <h2>Significance</h2>
+        <p>There seems to be no apparent correlation between a city's latitude and the city's wind speed. There is a subtle rise in wind speed ranges from negative sixty degrees to eighty degrees, but most cities' wind speed was under six kilotons.</p>
+        </div>
+    </div>
+    <footer>
+      <div>
+        <span>Copyright 2020 Project Latitude</span>
+      </div>
+    </footer>
+  </div>
+  
+</body>

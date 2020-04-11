@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="home.html">Project Latitude</a>
+        </div>
+    </ul>
+    <ul class="nav nav-tabs justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="home.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="data.html">Data</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="comparison.html">Comparisons</a>
+    </li>
+
+    <li class="nav-item dropdown" style="right: 0; left: auto;">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+      <div class="dropdown-menu dropdown-menu-right" >
+        <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+        <a class="dropdown-item" href="humid.html">Humidity</a>
+        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+      </div>
+    </li>
+  </ul>
+</div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-5 section">
+          <a href="cloud.html">
+          <img class="map" src="pictures/Latitude vs. Cloudiness Plot.png" alt="Latitude vs. Cloudiness Plot">
+        </a>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 section">
+          <a href="humid.html">
+          <img class="map" src="pictures/Latitude vs. Humidity Plot.png" alt="Latitude vs. Humidity Plot">
+          </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 section">
+          <a href="temp.html">
+          <img class="map" src="pictures/Latitude vs. Temperature Plot.png" alt="Latitude vs. Temperature Plot">
+          </a>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 section">
+          <a href="wind.html">
+          <img class="map" src="pictures/Latitude vs. Wind Speed Plot.png" alt="Latitude vs. Wind Speed">
+          </a>        
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
