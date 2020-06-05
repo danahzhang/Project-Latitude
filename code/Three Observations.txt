@@ -1,0 +1,4 @@
+Three Observations
+1. The tempature is the highest near the equator, well according to the data from one particular day. There is correlation.
+2. Cloudiness and humidity doesn't seem to correlate with latitude.
+3. Wind Speed might to have a minor correlation. While overall wind speed seem to stay consistently lower, but, on both sides of the equator, the further from the equator, exist more high wind speed cities.
